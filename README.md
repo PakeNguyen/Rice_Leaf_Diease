@@ -6,6 +6,13 @@ Dự án này tập trung vào việc phát hiện và phân loại các bệnh 
 
 Dữ liệu được sử dụng trong dự án này bao gồm các ảnh lá lúa đã được gán nhãn, mỗi ảnh tương ứng với một trong bảy loại bệnh. Dữ liệu được chia thành hai phần: **huấn luyện** và **kiểm tra**. Lớp **Lua_dataset** chịu trách nhiệm tải và xử lý các ảnh sử dụng API `Dataset` của PyTorch.
 
+## **Link tải dữ liệu**
+
+Dữ liệu được lấy trên kaggle
+```bash
+Link: https://www.kaggle.com/datasets/loki4514/rice-leaf-diseases-detection
+```
+
 ## **Yêu cầu**
 
 Để chạy dự án này, bạn cần cài đặt các thư viện sau:
