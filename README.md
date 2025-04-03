@@ -22,13 +22,14 @@ Bạn có thể cài đặt các thư viện này bằng cách sử dụng pip:
 
 ```bash
 pip install torch torchvision opencv-python scikit-learn matplotlib tensorboard tqdm
-
+```
 ## **Cách huấn luyện mô hình**
 Để huấn luyện mô hình, bạn chạy tệp train.py. Tệp này nhận các tham số từ dòng lệnh như đường dẫn đến dữ liệu, số epoch, learning rate và batch size.
 
 Ví dụ lệnh chạy:
+```bash
 - **python train.py --data_path "đường/dẫn/đến/dữ liệu" --epochs 100 --batch_size 32 --lr 0.01**
-
+```
 ## **Kiến trúc mô hình**
 Mô hình dựa trên ResNet-50 (mạng nơ-ron tích chập sâu) và đã được điều chỉnh để đầu ra 7 lớp tương ứng với 7 loại bệnh trên lá lúa. Mô hình được huấn luyện với hàm mất mát cross-entropy và tối ưu hóa bằng phương pháp SGD.
 
